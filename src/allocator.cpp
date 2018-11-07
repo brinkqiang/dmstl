@@ -17,7 +17,7 @@
 #include <string.h>
 #include <sys/types.h>
 #include <unistd.h>
-#include<ostream.h>
+#include <ostream>
 #include "gallocator.h"
 
 struct sembuf Pool::opLock_[2] = {
